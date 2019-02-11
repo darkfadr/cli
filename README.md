@@ -1,13 +1,19 @@
-# 8base CLI  [![Build Status](https://travis-ci.org/8base/cli.svg?branch=master)](https://travis-ci.org/8base/cli)
+![8base Logo](./docs/logo.png)
+# 8base CLI [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 > A Command Line Interface (CLI) that simplifies the deployment of serverless functions to your 8base workspace
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![Build Status](https://travis-ci.org/8base/cli.svg?branch=master)](https://travis-ci.org/8base/cli)
 
 
-## Getting Started
+
+## Installation
+OSX, Linux, & PC
 ```bash
 $ npm install -g 8base
+```
 
+## Usage Example
+```bash
 $ 8base --help
 Usage: 8base <command> [OPTIONS]
 
@@ -31,10 +37,12 @@ Options:
   -v, --version  Show version number                       [boolean]
 ```
 
-## Publishing to NPM
-Use this when you need to update the library in NPM. The following command will automatically set the version, create a tag for it, build the package and publish it to NPM
-```
-git add -A
-git commit -m 'version update'
-npm run upload
-```
+
+
+
+## Contribute
+1. Fork it (<https://github.com/yourname/yourproject/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
